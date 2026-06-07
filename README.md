@@ -22,7 +22,7 @@ The calculator provides a simple interface for estimating total attenuation of a
 - Pass / Fail Evaluation
 - Real-Time Results
 - Responsive Web Interface
-- Dark Cyber-Themed Dashboard
+- hemed Dashboard
 - User-Friendly Design
 
 ---
@@ -99,7 +99,8 @@ fiber-loss-calculator/
 
 ---
 
-## 🖼️ Screenshots
+## 🖼️ <img width="685" height="876" alt="Screenshot From 2026-06-07 17-12-14" src="https://github.com/user-attachments/assets/aae43004-1882-4f1c-961f-acf2a58be452" />
+
 
 ### Dashboard
 
@@ -111,39 +112,6 @@ fiber-loss-calculator/
 
 ---
 
-## ⚙️ Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/fiber-loss-calculator.git
-```
-
-Navigate into the project directory:
-
-```bash
-cd fiber-loss-calculator
-```
-
-Copy project files to Apache web root:
-
-```bash
-sudo cp -r * /var/www/html/
-```
-
-Restart Apache:
-
-```bash
-sudo systemctl restart apache2
-```
-
-Open your browser:
-
-```text
-http://localhost
-```
-
----
 
 ## 📊 Typical Fiber Parameters
 
