@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
@@ -10,7 +9,7 @@
 content="width=device-width, initial-scale=1.0">
 
 <title>
-Fiber Loss Calculator v1
+KTMB Fiber Loss Calculator
 </title>
 
 <link rel="stylesheet"
@@ -20,15 +19,22 @@ href="style.css">
 
 <body>
 
+<canvas id="matrix"></canvas>
+
 <div class="header">
+
+<img src="assets/ktmb-logo.png"
+class="logo">
 
 <h1>
 FIBER LOSS CALCULATOR
 </h1>
 
 <p>
-KTMB System
+KTMB TELECOMMUNICATION SYSTEM
 </p>
+
+<div id="clock"></div>
 
 </div>
 
@@ -66,6 +72,8 @@ KTMB System
 
 <div class="kpi">
 
+<div class="status-led"></div>
+
 <h3>STATUS</h3>
 
 <h2 id="statusKPI">
@@ -78,7 +86,9 @@ READY
 
 <div class="card">
 
-<h2>LINK INFORMATION</h2>
+<h2>
+LINK INFORMATION
+</h2>
 
 <label>
 Distance (km)
@@ -86,7 +96,8 @@ Distance (km)
 
 <input
 type="number"
-id="distance">
+id="distance"
+placeholder="Enter Fiber Distance">
 
 <label>
 Fiber Loss (dB/km)
@@ -103,7 +114,8 @@ Connector Qty
 
 <input
 type="number"
-id="connector">
+id="connector"
+value="0">
 
 <label>
 Splice Qty
@@ -111,7 +123,8 @@ Splice Qty
 
 <input
 type="number"
-id="splice">
+id="splice"
+value="0">
 
 <label>
 System Margin (dB)
@@ -123,9 +136,7 @@ id="margin"
 value="3">
 
 <button onclick="calculate()">
-
-CALCULATE
-
+CALCULATE LOSS
 </button>
 
 </div>
@@ -154,9 +165,7 @@ Total Loss : 0 dB
 
 </div>
 
-<script src="script.js">
-
-</script>
+<script src="script.js"></script>
 
 </body>
 
